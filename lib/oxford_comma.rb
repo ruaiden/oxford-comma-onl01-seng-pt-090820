@@ -13,7 +13,7 @@ def oxford_comma(array)
     half=array[0..4].join(", ")
     other=array[5]
     "#{half}#{other}"
-    array.insert[5]"and"
+    array.insert(5,"and")
    
     
   else
