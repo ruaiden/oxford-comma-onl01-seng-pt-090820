@@ -10,10 +10,10 @@ def oxford_comma(array)
     array.join
     
   elsif array.length > 3
-    array << "and"
     half=array[0..4].join(", ")
     other=array[5]
     "#{half}#{other}"
+    array.insert[5]"and"
    
     
   else
