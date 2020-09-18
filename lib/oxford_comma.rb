@@ -14,7 +14,6 @@ def oxford_comma(array)
     array.insert(3,"and")
     "#{half}#{other}"
     
-   
     
   else
     array.join
