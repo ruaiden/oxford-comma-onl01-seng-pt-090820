@@ -10,9 +10,10 @@ def oxford_comma(array)
     array.join
     
   elsif array.length > 3
+    array.join
     half=array[0..4].join(",")
     adding = array.insert(4,"and")
-    array.join
+    
     
   else
     array.join
